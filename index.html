@@ -398,13 +398,8 @@
             </div>
             <div class="footer-form-box">
                 <p class="send-text">Подпишитесь на рассылку</p>
-                <form action="" class="footer-form">
-                    <input 
-                    type="email"
-                    name="user-email"
-                    id="user-email"
-                    placeholder="E-mail"
-                    class="footer-input">
+                <form class="footer-form">
+                    <input type="email" name="footer-email" id="footer-email" placeholder="E-mail" class="footer-input">
                     <button type="submit" class="footer-btn">Подписаться
                         <svg class="send-icon">
                             <use href="./images/symbol-defs.svg#send"></use>
@@ -422,57 +417,37 @@
                 </svg>
             </button>
             <p class="modal-title">Оставьте свои данные, мы вам перезвоним</p>
-            <form action="" class="modal-form">
+            <form class="modal-form">
                 <div class="modal-field">
                     <label for="user-name" class="imput-label">Имя</label>
                     <span class="input-wrapper">
-                    <input 
-                        type="text" 
-                        name="user-name" 
-                        id="user-name" 
-                        class="form-input"
-                    >
-                    <svg class="input-icon">
-                        <use href="./images/symbol-defs.svg#person"></use>
-                    </svg>
+                        <input type="text"  name="user-name" id="user-name" class="form-input">
+                            <svg class="input-icon">
+                                <use href="./images/symbol-defs.svg#person"></use>
+                            </svg>
                     </span>
                 </div>
                 <div class="modal-field">
                     <label for="user-tel" class="imput-label">Телефон</label>
                     <span class="input-wrapper">
-                    <input 
-                        type="tel" 
-                        name="user-tel" 
-                        id="user-tel" 
-                        class="form-input"
-                    >
-                    <svg class="input-icon">
-                        <use href="./images/symbol-defs.svg#phone"></use>
-                    </svg>
+                        <input type="tel"  name="user-tel" id="user-tel" class="form-input">
+                            <svg class="input-icon">
+                                <use href="./images/symbol-defs.svg#phone"></use>
+                            </svg>
                     </span>
                 </div>
                 <div class="modal-field">
                     <label for="user-email" class="imput-label">Почта</label>
                     <span class="input-wrapper">
-                    <input 
-                        type="email" 
-                        name="user-email" 
-                        id="user-email" 
-                        class="form-input"
-                    >
-                    <svg class="input-icon">
-                        <use href="./images/symbol-defs.svg#email"></use>
-                    </svg>
+                        <input  type="email" name="user-email" id="user-email" class="form-input">
+                            <svg class="input-icon">
+                                <use href="./images/symbol-defs.svg#email"></use>
+                            </svg>
                     </span>
                 </div>
-                 <div class="modal-coments-box">
+                 <div class="modal-field modal-field-coments">
                     <label for="user-coments" class="imput-label">Комментарий</label>
-                    <textarea 
-                        name="user-coments" 
-                        id="user-coments"
-                        placeholder="Введите текст" 
-                        class="modal-coments"
-                        ></textarea>
+                    <textarea name="user-coments" id="user-coments" placeholder="Введите текст" class="modal-coments"></textarea>
                 </div>
                 <div class="modal-checkbox-field">
                     <input type="checkbox" id="modal-checkbox" class="modal-checkbox visually-hidden">
@@ -481,7 +456,7 @@
                             <svg class="check-icon">
                                 <use href="./images/symbol-defs.svg#Vector"></use>
                             </svg>
-                        </span>Соглашаюсь с рассылкой и принимаю&#160 <a href="" class="link-contract">Условия договора</a> </label>
+                        </span>Соглашаюсь с рассылкой и принимаю&#160;<a href="" class="link-contract">Условия договора</a> </label>
                 </div>
                 <button type="submit" class="form-btn">Отправить</button>
             </form>
