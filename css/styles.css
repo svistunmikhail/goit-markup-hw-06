@@ -636,6 +636,9 @@ margin-bottom: 20px;
     padding: 15px 16px;
     margin-right: 12px;
     outline: none;
+    transition-property: border;
+    transition-duration: 250ms;
+transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-input::placeholder {
@@ -643,6 +646,11 @@ font-weight: 400;
 font-size: 16px;
 line-height: calc(20 / 16);
 color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-input:hover,
+.footer-input:focus {
+    border: 1px solid var(--akcent-color);
 }
 
 .footer-btn {
